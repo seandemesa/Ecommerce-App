@@ -1,0 +1,20 @@
+﻿@inject NavigationManager NavigationManager
+
+@*<button @onclick="GoToHome" class = "btn btn-outline-primary home-button">
+    My Shop
+</button>*@
+<div>
+    <a href = "/">
+        <img class="logo" src="@imageSource" alt="Home"/>
+    </a> 
+    <br/>
+</div>
+
+
+@code {
+    string? imageSource = "images/EcommerceApp_Logo.png";
+    private void GoToHome()
+    {
+        NavigationManager.NavigateTo("");
+    }
+}

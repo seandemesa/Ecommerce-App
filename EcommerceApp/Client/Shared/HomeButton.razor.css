@@ -1,0 +1,12 @@
+﻿.home-button {
+    white-space: nowrap;
+    margin-right: 10px;
+    transform: rotate(-5deg);
+}
+
+.logo {
+    max-height: 175px;
+    max-width: 175px;
+    border-radius: 6px;
+    margin-right: 10px;
+}
